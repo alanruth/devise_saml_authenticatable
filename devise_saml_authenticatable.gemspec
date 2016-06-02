@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency("devise","> 2.0.0")
   # gem.add_dependency("ruby-saml","~> 1.0")
-  gem.add_dependency("ruby-saml", github: 'alanruth/devise_saml_authenticatable')
+  # gem.add_dependency("ruby-saml", github: 'alanruth/devise_saml_authenticatable')
 end
