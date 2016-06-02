@@ -37,8 +37,8 @@ module Devise
           else
             inv_attr = attribute_map.invert
             auth_value = attributes[inv_attr[key.to_s]]
-            auth_value.try(:downcase!) if Devise.case_insensitive_keys.include?(key)
           end
+          auth_value.try(:downcase!) if Devise.case_insensitive_keys.include?(key)
           resource = where(key => auth_value).first
 
           if resource.nil?
