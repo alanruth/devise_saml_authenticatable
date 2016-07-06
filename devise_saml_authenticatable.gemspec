@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency("devise","> 2.0.0")
   # gem.add_dependency("ruby-saml","~> 1.0")
-  gem.add_dependency("ruby-saml", github: 'notionlabs/ruby-saml')
+  # gem.add_dependency("ruby-saml", github: 'notionlabs/ruby-saml')
 end
