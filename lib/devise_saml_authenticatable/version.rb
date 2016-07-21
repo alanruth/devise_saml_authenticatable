@@ -1,3 +1,3 @@
 module DeviseSamlAuthenticatable
-  VERSION = "1.2.2.01"
+  VERSION = "1.2.2.03"
 end
